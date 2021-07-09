@@ -1,0 +1,18 @@
+.footer{
+    background: black;
+   text-align: center;
+   align-items: center;
+   padding: 10px;
+}
+.footer_text{
+    font-family: 'Otomanopee One', sans-serif;
+    color: grey;
+}
+.fa-github-alt{
+    font-size: 20px;
+    color: grey;
+}
+
+.fa-github-alt:hover{
+    color: #6e5494;
+}

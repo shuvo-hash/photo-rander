@@ -1,0 +1,28 @@
+
+.nav{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.navMenu{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    margin: 0 20px;
+}
+
+.navMenu:hover{
+    color: #662d91;
+}
+
+.fa-instalod {
+    font-size: 40px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 900px) {
+    .nav{
+        width: 90%;
+        margin: 0 auto;
+    }
+}

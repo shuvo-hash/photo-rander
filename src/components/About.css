@@ -1,0 +1,35 @@
+.about{
+    text-align: center;
+    /* background: url("../images/jr-korpa-9XngoIpxcEo-unsplash.jpg"); */
+    background: linear-gradient(0deg, rgba(164,130,224,1) 27%, rgba(14,21,29,1) 90%);
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+
+}
+
+.heading{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+.details{
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 900px) {
+    .about{
+       height: auto;
+    }
+    .future{
+        padding-bottom: 20px;
+    }
+    
+}

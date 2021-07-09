@@ -1,0 +1,115 @@
+
+.home{
+    text-align: center;
+    /* background: url("../images/jr-korpa-9XngoIpxcEo-unsplash.jpg"); */
+    background: linear-gradient(0deg, rgba(164,130,224,1) 27%, rgba(14,21,29,1) 90%);
+    background-size: contain;
+    height: auto;
+    
+
+}
+
+.heading{
+    font-family: 'Otomanopee One', sans-serif;
+    padding: 30px 0;
+    color: gray;
+}
+
+.buttons{
+    margin-bottom: 30px;
+}
+
+.button{
+    background: grey;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 18px;
+    padding: 2px 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.twitter:hover{
+    background: #fff;
+    color: #5072A7;
+}
+
+.download:hover{
+    background: #fff;
+    color: #662d91;
+}
+
+.refresh:hover{
+    background: #fff;
+    color: #568203;
+}
+
+.twitter:active {
+    background-color: #1DA1F2;
+    box-shadow: 0 5px #5072A7;
+    color: #fff;
+    transform: translateY(7px);
+  }
+
+  .download:active {
+    background-color: #800080;
+    box-shadow: 0 5px #662d91;
+    color: #fff;
+    transform: translateY(7px);
+  }
+
+  .refresh:active {
+    background-color: #87A96B;
+    box-shadow: 0 5px #568203;
+    color: #fff;
+    transform: translateY(7px);
+  }
+
+  .button > i{
+      padding: 0 5px;
+  }
+
+  
+.image_box{
+   
+    height: 520px;
+}
+
+.fa-spinner{
+    font-size: 40px;
+    color: #fff;
+    
+}
+
+.image{
+    cursor: pointer;
+    height: 500px;
+    max-width: 700px;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .home{
+        height: auto;
+    }
+
+    .button{
+        background: grey;
+        font-family: 'Otomanopee One', sans-serif;
+        font-size: 15px;
+        padding: 2px 5px;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+
+    
+    .image{
+        height: 500px;
+        width: 90%;
+        
+    }
+    .fa-spinner{
+        font-size: 40px;
+        color: #fff;
+        margin: 0 auto;
+    }
+  }
